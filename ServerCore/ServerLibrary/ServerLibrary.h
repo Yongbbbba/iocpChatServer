@@ -43,3 +43,78 @@
 #endif
 
 typedef void(*Function)(void*);
+
+#include "Type.h"
+#include "Util.h"
+#include "Singleton.h"
+#include "RandomMT.h"
+#include "Clock.h"
+/*
+//기타 유틸
+#include "./Util/csv_parser/csv_parser.hpp"
+#include "./Util/tinyXml/tinyxml.h"
+
+// TODO: 필수 헤더 파일
+//-------------------------------------------------------------------//
+#include "WinSocket.h"
+#include "Type.h"
+#include "Util.h"
+
+#include "GameObject.h"
+#include "Singleton.h"
+#include "RandomMT.h"
+
+#include "Clock.h"
+#include "Logger.h"
+#include "Assert.h"
+
+#include "Table.h"
+#include "Thread.h"
+#include "Lock.h"
+#include "ThreadJobQueue.h"
+#include "Task.h"
+
+#include "MemoryLeak.h"
+#include "Memory_LowFragmentationHeap.h"
+#include "Minidump.h"
+
+#include "SMTPMail.h"
+#include "Config.h"
+#include "Monitoring.h"
+#include "ProgramValidation.h"
+
+//패킷들
+#include "Stream.h"
+#include "PacketHeader.h"
+#include "PacketClass.h"
+#include "PacketAnalyzer.h"
+#include "PacketFactory.h"
+#include "Package.h"
+#include "PacketObfuscation.h"
+
+//컨텐츠 관련
+#include "ContentsProcess.h"
+
+//서버
+#include "Session.h"
+#include "SessionManager.h"
+#include "Server.h"
+
+#include "IOCPServer.h"
+#include "IOCPSession.h"
+#include "SessionMonitor.h"
+
+//터미널
+#include "TerminalSession.h"
+#include "TerminalTerminal.h"
+#include "TerminalManager.h"
+
+//DB
+#include "ADODatabase.h"
+#include "Query.h"
+#include "DBManager.h"
+
+// 전역 변수
+#include "Shutdown.h"
+*/
+
