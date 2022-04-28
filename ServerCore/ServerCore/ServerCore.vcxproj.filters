@@ -27,6 +27,9 @@
     <ClInclude Include="..\tinyxml_2_6_2\tinyxml\tinyxml.h">
       <Filter>TinyXml</Filter>
     </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
