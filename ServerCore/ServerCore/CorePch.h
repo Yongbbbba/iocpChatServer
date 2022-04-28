@@ -1,2 +1,47 @@
 // 타 프로젝트에 include 할 것들을 이곳에 정의
 #pragma once
+
+#pragma comment(lib, "ws2_32.lib")
+#pragma comment(lib, "mswsock.lib")
+#pragma comment(lib, "Winmm.lib")
+
+#include <WS2tcpip.h>
+#include <winsock2.h>
+#include <MSWSock.h>
+#include <mmsystem.h>
+#include <WS2spi.h>
+#include <mstcpip.h>
+
+#include <Windows.h>
+#include <iostream>
+#include <io.h>
+#include <cstdlib>
+#include <stdio.h>
+#include <cstdint>
+
+#include <assert.h>
+#include <fcntl.h>
+#include <algorithm>
+#include <functional>
+
+#include <thread>
+#include <mutex>
+#include <memory>
+
+#include <string>
+#include <tchar.h>
+
+#include <ctime>
+#include <random>
+#include <typeinfo>
+
+#if _DEBUG
+#define CONTEXT_SWITCH Sleep(1)
+#else
+#define CONTEXT_SWITCH ::SwitchToThread()
+#endif
+
+typedef void (*Function)(void *);
+
+//기타 유틸
+#include "tinyxml.h"
