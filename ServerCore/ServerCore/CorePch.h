@@ -35,6 +35,8 @@
 #include <random>
 #include <typeinfo>
 
+#include <array>
+
 #if _DEBUG
 #define CONTEXT_SWITCH Sleep(1)
 #else
@@ -45,3 +47,13 @@ typedef void (*Function)(void *);
 
 //기타 유틸
 #include "tinyxml.h"
+
+// 필수 헤더파일
+#include "Types.h"
+#include "Util.h"
+
+//#include "GameObject.h"
+#include "Singleton.h"
+#include "RandomMt.h"
+
+#include "Clock.h"

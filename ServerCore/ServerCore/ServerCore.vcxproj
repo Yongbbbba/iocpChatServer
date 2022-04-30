@@ -159,19 +159,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\tinyxml_2_6_2\tinyxml\tinystr.h" />
     <ClInclude Include="..\tinyxml_2_6_2\tinyxml\tinyxml.h" />
+    <ClInclude Include="Clock.h" />
     <ClInclude Include="CorePch.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="RandomMt.h" />
+    <ClInclude Include="Singleton.h" />
     <ClInclude Include="Types.h" />
     <ClInclude Include="Util.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\tinyxml_2_6_2\tinyxml\tinystr.cpp" />
-    <ClCompile Include="..\tinyxml_2_6_2\tinyxml\tinyxml.cpp" />
-    <ClCompile Include="..\tinyxml_2_6_2\tinyxml\tinyxmlerror.cpp" />
-    <ClCompile Include="..\tinyxml_2_6_2\tinyxml\tinyxmlparser.cpp" />
-    <ClCompile Include="..\tinyxml_2_6_2\tinyxml\xmltest.cpp" />
+    <ClCompile Include="..\tinyxml_2_6_2\tinyxml\tinyxml.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp" />
     <ClCompile Include="CorePch.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

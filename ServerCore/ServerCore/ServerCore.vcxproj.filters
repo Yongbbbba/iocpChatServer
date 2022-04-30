@@ -21,13 +21,19 @@
     <ClInclude Include="Types.h">
       <Filter>Utils</Filter>
     </ClInclude>
-    <ClInclude Include="..\tinyxml_2_6_2\tinyxml\tinystr.h">
-      <Filter>TinyXml</Filter>
-    </ClInclude>
     <ClInclude Include="..\tinyxml_2_6_2\tinyxml\tinyxml.h">
       <Filter>TinyXml</Filter>
     </ClInclude>
     <ClInclude Include="Util.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomMt.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
       <Filter>Utils</Filter>
     </ClInclude>
   </ItemGroup>
@@ -38,20 +44,11 @@
     <ClCompile Include="CorePch.cpp">
       <Filter>Utils</Filter>
     </ClCompile>
-    <ClCompile Include="..\tinyxml_2_6_2\tinyxml\tinystr.cpp">
-      <Filter>TinyXml</Filter>
-    </ClCompile>
     <ClCompile Include="..\tinyxml_2_6_2\tinyxml\tinyxml.cpp">
       <Filter>TinyXml</Filter>
     </ClCompile>
-    <ClCompile Include="..\tinyxml_2_6_2\tinyxml\tinyxmlerror.cpp">
-      <Filter>TinyXml</Filter>
-    </ClCompile>
-    <ClCompile Include="..\tinyxml_2_6_2\tinyxml\tinyxmlparser.cpp">
-      <Filter>TinyXml</Filter>
-    </ClCompile>
-    <ClCompile Include="..\tinyxml_2_6_2\tinyxml\xmltest.cpp">
-      <Filter>TinyXml</Filter>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Utils</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
