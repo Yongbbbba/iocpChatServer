@@ -57,3 +57,6 @@ typedef void (*Function)(void *);
 #include "RandomMt.h"
 
 #include "Clock.h"
+
+#include "Thread.h"
+#include "Lock.h"
