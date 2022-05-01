@@ -39,8 +39,13 @@
     <ClInclude Include="Config.h">
       <Filter>Utils</Filter>
     </ClInclude>
-    <ClInclude Include="Lock.h" />
-    <ClInclude Include="Thread.h" />
+    <ClInclude Include="Lock.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -58,7 +63,12 @@
     <ClCompile Include="Config.cpp">
       <Filter>Utils</Filter>
     </ClCompile>
-    <ClCompile Include="Lock.cpp" />
-    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="Lock.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp" />
   </ItemGroup>
 </Project>

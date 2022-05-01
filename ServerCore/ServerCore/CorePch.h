@@ -60,3 +60,7 @@ typedef void (*Function)(void *);
 
 #include "Thread.h"
 #include "Lock.h"
+
+#include "Config.h"
+
+#include "Logger.h"
