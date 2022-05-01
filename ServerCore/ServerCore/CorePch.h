@@ -57,10 +57,16 @@ typedef void (*Function)(void *);
 #include "RandomMt.h"
 
 #include "Clock.h"
+#include "Logger.h"
+#include "Assert.h"
 
 #include "Thread.h"
 #include "Lock.h"
 
+
+#include "Minidump.h"
+
 #include "Config.h"
 
-#include "Logger.h"
+// 전역변수
+#include "Shutdown.h"
