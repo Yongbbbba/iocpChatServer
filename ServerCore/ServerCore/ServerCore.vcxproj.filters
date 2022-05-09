@@ -7,8 +7,8 @@
     <Filter Include="Utils">
       <UniqueIdentifier>{e2a43432-e93a-44aa-ba42-6cf681b5d7b2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="TinyXml">
-      <UniqueIdentifier>{8a66992e-d47f-4eda-92a0-8c124973d72a}</UniqueIdentifier>
+    <Filter Include="XML">
+      <UniqueIdentifier>{52bc9cbe-ccec-4d47-9dcc-c292a3c425c7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -50,11 +50,14 @@
     </ClInclude>
     <ClInclude Include="Minidump.h" />
     <ClInclude Include="Shutdown.h" />
-    <ClInclude Include="tinyxml\tinystr.h">
-      <Filter>TinyXml</Filter>
+    <ClInclude Include="FileUtils.h">
+      <Filter>Utils</Filter>
     </ClInclude>
-    <ClInclude Include="tinyxml\tinyxml.h">
-      <Filter>TinyXml</Filter>
+    <ClInclude Include="tinystr.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>XML</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -84,20 +87,20 @@
     </ClCompile>
     <ClCompile Include="Minidump.cpp" />
     <ClCompile Include="Shutdown.cpp" />
-    <ClCompile Include="tinyxml\tinystr.cpp">
-      <Filter>TinyXml</Filter>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>Utils</Filter>
     </ClCompile>
-    <ClCompile Include="tinyxml\tinyxml.cpp">
-      <Filter>TinyXml</Filter>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>XML</Filter>
     </ClCompile>
-    <ClCompile Include="tinyxml\tinyxmlerror.cpp">
-      <Filter>TinyXml</Filter>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>XML</Filter>
     </ClCompile>
-    <ClCompile Include="tinyxml\tinyxmlparser.cpp">
-      <Filter>TinyXml</Filter>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>XML</Filter>
     </ClCompile>
-    <ClCompile Include="tinyxml\xmltest.cpp">
-      <Filter>TinyXml</Filter>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>XML</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

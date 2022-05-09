@@ -48,6 +48,9 @@ using Int64 = INT64;
 using UInt64 = UINT64;
 using Float = float;
 
+template<typename Type, UInt32 Size>
+using Array = std::array<Type, Size>;
+
 // for xml 
 using xml_t = TiXmlDocument;
 using xmlNode_t = TiXmlElement;
