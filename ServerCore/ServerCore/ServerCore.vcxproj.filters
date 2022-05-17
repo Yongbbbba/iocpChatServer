@@ -48,7 +48,6 @@
     <ClInclude Include="Assert.h">
       <Filter>Utils</Filter>
     </ClInclude>
-    <ClInclude Include="Minidump.h" />
     <ClInclude Include="Shutdown.h" />
     <ClInclude Include="FileUtils.h">
       <Filter>Utils</Filter>
@@ -59,6 +58,22 @@
     <ClInclude Include="tinyxml.h">
       <Filter>XML</Filter>
     </ClInclude>
+    <ClInclude Include="LowFragmentationHeap.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadJobQueue.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Minidump.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Monitoring.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -85,7 +100,6 @@
     <ClCompile Include="Assert.cpp">
       <Filter>Utils</Filter>
     </ClCompile>
-    <ClCompile Include="Minidump.cpp" />
     <ClCompile Include="Shutdown.cpp" />
     <ClCompile Include="FileUtils.cpp">
       <Filter>Utils</Filter>
@@ -101,6 +115,12 @@
     </ClCompile>
     <ClCompile Include="tinyxmlparser.cpp">
       <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Minidump.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Utils</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

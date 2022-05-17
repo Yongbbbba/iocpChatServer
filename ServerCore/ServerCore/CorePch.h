@@ -43,7 +43,8 @@
 #define CONTEXT_SWITCH ::SwitchToThread()
 #endif
 
-typedef void (*Function)(void *);
+// typedef void (*Function)(void *);
+using Function = void(*)(void*);
 
 //기타 유틸
 #include "tinyxml.h"
@@ -63,10 +64,13 @@ typedef void (*Function)(void *);
 #include "Thread.h"
 #include "Lock.h"
 
-
 #include "Minidump.h"
+#include "LowFragmentationHeap.h"
 
 #include "Config.h"
+#include "GameObject.h"
+#include "Task.h"
+#include "Monitoring.h"
 
 // 전역변수
 #include "Shutdown.h"

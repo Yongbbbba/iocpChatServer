@@ -9,7 +9,7 @@ MiniDump::MiniDump()
 
 LONG WINAPI MiniDump::execptionFilter(struct _EXCEPTION_POINTERS *exceptionInfo)
 {
-    //¿ì¼± Á¾·á Ã³¸®ºÎÅÍ ÇÏ°í
+    // 우선 종료처리부터
     ShutdownServer();
 
     _CrtMemDumpAllObjectsSince(NULL);
