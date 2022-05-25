@@ -73,7 +73,13 @@
     <ClInclude Include="Task.h">
       <Filter>Utils</Filter>
     </ClInclude>
-    <ClInclude Include="Monitoring.h" />
+    <ClInclude Include="Monitoring.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -100,7 +106,6 @@
     <ClCompile Include="Assert.cpp">
       <Filter>Utils</Filter>
     </ClCompile>
-    <ClCompile Include="Shutdown.cpp" />
     <ClCompile Include="FileUtils.cpp">
       <Filter>Utils</Filter>
     </ClCompile>
@@ -122,5 +127,12 @@
     <ClCompile Include="Task.cpp">
       <Filter>Utils</Filter>
     </ClCompile>
+    <ClCompile Include="Shutdown.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPServer.cpp" />
   </ItemGroup>
 </Project>

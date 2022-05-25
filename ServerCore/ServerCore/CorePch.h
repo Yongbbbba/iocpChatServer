@@ -72,5 +72,9 @@ using Function = void(*)(void*);
 #include "Task.h"
 #include "Monitoring.h"
 
+// Network
+#include "Server.h"
+#include "IOCPServer.h"
+
 // 전역변수
 #include "Shutdown.h"
