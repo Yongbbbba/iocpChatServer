@@ -88,6 +88,10 @@
     <ClInclude Include="IOCPSession.h">
       <Filter>Network</Filter>
     </ClInclude>
+    <ClInclude Include="SessionManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionMonitor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -150,5 +154,9 @@
     <ClCompile Include="IOCPSession.cpp">
       <Filter>Network</Filter>
     </ClCompile>
+    <ClCompile Include="SessionManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionMonitor.cpp" />
   </ItemGroup>
 </Project>

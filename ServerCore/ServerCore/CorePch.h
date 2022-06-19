@@ -77,6 +77,8 @@ using Function = void(*)(void*);
 #include "Session.h"
 #include "IOCPServer.h"
 #include "IOCPSession.h"
+#include "SessionManager.h"
+#include "SessionMonitor.h"
 
 // 전역변수
 #include "Shutdown.h"

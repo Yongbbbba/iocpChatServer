@@ -180,6 +180,8 @@
     <ClInclude Include="RandomMt.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="Session.h" />
+    <ClInclude Include="SessionManager.h" />
+    <ClInclude Include="SessionMonitor.h" />
     <ClInclude Include="Shutdown.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="Task.h" />
@@ -209,6 +211,8 @@
     </ClCompile>
     <ClCompile Include="Server.cpp" />
     <ClCompile Include="Session.cpp" />
+    <ClCompile Include="SessionManager.cpp" />
+    <ClCompile Include="SessionMonitor.cpp" />
     <ClCompile Include="Shutdown.cpp" />
     <ClCompile Include="Task.cpp" />
     <ClCompile Include="Thread.cpp" />
