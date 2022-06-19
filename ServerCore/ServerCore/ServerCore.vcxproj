@@ -170,6 +170,7 @@
     <ClInclude Include="FileUtils.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="IOCPServer.h" />
+    <ClInclude Include="IOCPSession.h" />
     <ClInclude Include="Lock.h" />
     <ClInclude Include="Logger.h" />
     <ClInclude Include="LowFragmentationHeap.h" />
@@ -178,6 +179,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="RandomMt.h" />
     <ClInclude Include="Server.h" />
+    <ClInclude Include="Session.h" />
     <ClInclude Include="Shutdown.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="Task.h" />
@@ -195,6 +197,7 @@
     <ClCompile Include="CorePch.cpp" />
     <ClCompile Include="FileUtils.cpp" />
     <ClCompile Include="IOCPServer.cpp" />
+    <ClCompile Include="IOCPSession.cpp" />
     <ClCompile Include="Lock.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="Minidump.cpp" />
@@ -205,6 +208,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Server.cpp" />
+    <ClCompile Include="Session.cpp" />
     <ClCompile Include="Shutdown.cpp" />
     <ClCompile Include="Task.cpp" />
     <ClCompile Include="Thread.cpp" />

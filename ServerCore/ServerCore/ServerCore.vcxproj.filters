@@ -79,7 +79,15 @@
     <ClInclude Include="Server.h">
       <Filter>Network</Filter>
     </ClInclude>
-    <ClInclude Include="IOCPServer.h" />
+    <ClInclude Include="IOCPServer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPSession.h">
+      <Filter>Network</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -133,6 +141,14 @@
     <ClCompile Include="Server.cpp">
       <Filter>Network</Filter>
     </ClCompile>
-    <ClCompile Include="IOCPServer.cpp" />
+    <ClCompile Include="IOCPServer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPSession.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

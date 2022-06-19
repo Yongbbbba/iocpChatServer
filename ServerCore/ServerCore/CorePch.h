@@ -74,7 +74,9 @@ using Function = void(*)(void*);
 
 // Network
 #include "Server.h"
+#include "Session.h"
 #include "IOCPServer.h"
+#include "IOCPSession.h"
 
 // 전역변수
 #include "Shutdown.h"
