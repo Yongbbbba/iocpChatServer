@@ -185,6 +185,9 @@
     <ClInclude Include="Shutdown.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="Task.h" />
+    <ClInclude Include="Terminal.h" />
+    <ClInclude Include="TerminalManager.h" />
+    <ClInclude Include="TerminalSession.h" />
     <ClInclude Include="Thread.h" />
     <ClInclude Include="ThreadJobQueue.h" />
     <ClInclude Include="tinystr.h" />
@@ -215,6 +218,9 @@
     <ClCompile Include="SessionMonitor.cpp" />
     <ClCompile Include="Shutdown.cpp" />
     <ClCompile Include="Task.cpp" />
+    <ClCompile Include="Terminal.cpp" />
+    <ClCompile Include="TerminalManager.cpp" />
+    <ClCompile Include="TerminalSession.cpp" />
     <ClCompile Include="Thread.cpp" />
     <ClCompile Include="tinystr.cpp" />
     <ClCompile Include="tinyxml.cpp" />

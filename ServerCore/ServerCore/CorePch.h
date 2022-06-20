@@ -80,5 +80,9 @@ using Function = void(*)(void*);
 #include "SessionManager.h"
 #include "SessionMonitor.h"
 
+// Terminal
+#include "TerminalSession.h"
+#include "Terminal.h"
+
 // 전역변수
 #include "Shutdown.h"

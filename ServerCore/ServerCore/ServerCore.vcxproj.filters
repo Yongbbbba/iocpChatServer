@@ -91,7 +91,16 @@
     <ClInclude Include="SessionManager.h">
       <Filter>Network</Filter>
     </ClInclude>
-    <ClInclude Include="SessionMonitor.h" />
+    <ClInclude Include="SessionMonitor.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="TerminalSession.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Terminal.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="TerminalManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -157,6 +166,15 @@
     <ClCompile Include="SessionManager.cpp">
       <Filter>Network</Filter>
     </ClCompile>
-    <ClCompile Include="SessionMonitor.cpp" />
+    <ClCompile Include="SessionMonitor.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="TerminalSession.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Terminal.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="TerminalManager.cpp" />
   </ItemGroup>
 </Project>
